@@ -31,7 +31,7 @@ export default function AddProduct({
       body: JSON.stringify(product),
     })
       .then((result) => {
-        alert("Product ADDED");
+        alert("Product added Succesfully");
         handlePageUpdate();
         addProductModalSetting();
       })
